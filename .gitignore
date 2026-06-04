@@ -1,0 +1,21 @@
+# Ignore les fichiers système
+.git
+.DS_Store
+desktop.ini
+.env
+node_modules/
+
+# Ignore les fichiers temporaires
+*.log
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore les fichiers de test
+test/
+tests/
+
+# Ignore admin secret
+admin-secret.html
